@@ -1,13 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
 #main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+input[type='text'] {
+  width: 80%;
+  padding: 5px;
+}
+
+input[type='submit'] {
+  padding: 5px 10px;
 }
 
 #github-container {
-  display: flex;
+  margin-top: 20px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
 }
